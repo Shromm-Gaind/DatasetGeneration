@@ -4,7 +4,7 @@ This repository contains the code accompanying the conference paper. Below are d
 
 ## Files
 
-### [generate_points.py](./generate_points.py)
+### [generate_pointclouds.py](./generate_pointclouds.py)
 Generates the RGB point clouds based on the depth image and RGB image.
 
 #### Paths to Modify
@@ -17,7 +17,7 @@ Generates the RGB point clouds based on the depth image and RGB image.
 python generate_points.py
 ```
 
-### [sunrgbd_infos_old.py](./sunrgbd_infos_old.py)
+### [CustomDatasetTR3D.py](./CustomDatasetTR3D.py)
 Generates the 3D bounding box and puts the information to emulate the SUNRGBD dataset.
 
 #### Paths to Modify
